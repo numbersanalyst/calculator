@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css" />
     <title>Javascript calculator</title>
 </head>
 
@@ -40,13 +41,14 @@
             <button class="number">.</button>
         </div>
     </div>
-    <div class="calculator-history">
+    <div data-simplebar class="calculator-history">
         <p class="history-title">Last Calculations <button class="history-btn">Clear history</button></p>
         <hr>
         <ul class="history">
         </ul>
     </div>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
 </body>
 
 </html>
