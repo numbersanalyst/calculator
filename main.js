@@ -65,7 +65,7 @@ function showResult() {
         case ':':
             result = b / a;
             break;
-        case '2^':
+        case '^':
             result = b ** a;
             break;
     }
