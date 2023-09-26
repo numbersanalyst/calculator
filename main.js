@@ -79,7 +79,7 @@ function showResult() {
 
 function addToHistory() {
     const newHistoryItem = document.createElement('li');
-    newHistoryItem.textContent = `${currentNumber.textContent} ${mathSign.textContent} ${previousNumber.textContent} = ${result}`;
+    newHistoryItem.textContent = `${previousNumber.textContent} ${mathSign.textContent} ${currentNumber.textContent} = ${result}`;
     newHistoryItem.classList.add('history-item');
 
     calculatorHistory.appendChild(newHistoryItem);
